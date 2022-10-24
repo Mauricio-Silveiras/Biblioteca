@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Biblioteca.Migrations
 {
     [DbContext(typeof(BibliotecaContext))]
-    [Migration("20221023111455_Biblioteca")]
+    [Migration("20221024204105_Biblioteca")]
     partial class Biblioteca
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -68,6 +68,29 @@ namespace Biblioteca.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Livros");
+                });
+
+            modelBuilder.Entity("Biblioteca.Models.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Login")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("Senha")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<int>("Tipo")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("Biblioteca.Models.Emprestimo", b =>

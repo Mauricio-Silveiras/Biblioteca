@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l6ErlUjuuG0i2sXeqTaWMa23Kzda2CJr1FeMSUB3wbcjyYA3KS5PUnQpeRPjPKybsWi0lXsFs9rjHjdD9p//7A==",
+  "dgSpecHash": "bXYoRla7GRoBvOi4ddaYbtNxgHTH7UpafoQ+TB+br9irpDofkrGNbffSQD+czM3PLkEl46ahN827YYMSqMioew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mauma\\Desktop\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\mauma\\Desktop\\Nova pasta\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mauma\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\mauma\\.nuget\\packages\\microsoft.entityframeworkcore\\3.0.0\\microsoft.entityframeworkcore.3.0.0.nupkg.sha512",
